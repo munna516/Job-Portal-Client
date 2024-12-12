@@ -20,6 +20,11 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
+      <li>
+        <NavLink className="font-bold text-2xl " to="/my-application">
+          My-Application
+        </NavLink>
+      </li>
       {/* <li>
         <NavLink className="font-bold text-2xl " to="/about">
           About
