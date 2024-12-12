@@ -21,7 +21,7 @@ const Login = () => {
       .then((result) => {
         setUser(result?.user);
         // successfulToast("Login successfull");
-        // navigate(location?.state ? location.state : "/");
+        navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
         console.log(error);
