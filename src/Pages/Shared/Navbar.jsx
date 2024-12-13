@@ -25,17 +25,17 @@ const Navbar = () => {
           My-Application
         </NavLink>
       </li>
-      {/* <li>
-        <NavLink className="font-bold text-2xl " to="/about">
-          About
+      <li>
+        <NavLink className="font-bold text-2xl " to="/add-job">
+          Add Jobs
         </NavLink>
       </li>
 
       <li>
-        <NavLink className="font-bold text-2xl " to="/contact">
-          Contact
+        <NavLink className="font-bold text-2xl " to="/my-posted-jobs">
+          My Posted Jobs
         </NavLink>
-      </li> */}
+      </li>
     </>
   );
   return (
